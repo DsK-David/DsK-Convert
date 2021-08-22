@@ -1,0 +1,126 @@
+body{
+        font-family:'arial black',sans-serif;
+        font-size:15px;
+        background-image:url('Background.png'); 
+        font-size: cover;
+        background-repeat:no-repeat;
+}
+.app{
+        margin:0 auto;
+        width:300px;
+        
+}
+.app__header{
+        text-align:center;
+        padding:0;
+        margin:0;
+        color:#346B88;
+        font-family:'verdana',sans-serif;
+        font-size: 400%;
+        
+}
+.app__input-data{
+        padding:0;
+        margin:8%;
+        padding-bottom:10px;
+}
+.app__input-label{
+        display:block;
+        padding:10px;
+        text-align:center;
+        color:#001233;
+}
+.app__input{
+        box-sizing:border-box;
+        width: 100%;
+        display:block;
+        font-size: 20px;
+        color:black;
+        border:2px solid #001233;
+        border-radius:10px;
+}
+.app__input:focus{
+        outline:none;
+        border:2px solid #001233;
+}
+.app__btn-convert{
+        font-family: inherit;
+        font-size:16px;
+        width:100%;
+        padding-top:15px;
+        padding-bottom:15px;
+        color:red;
+        background-color:white;
+        border: 2px solid #001233;
+        border-radius:10%;
+        
+}
+.app__btn-convert:hover,
+.app__btn-convert:focus{
+        cursor:pointer;
+        color:red;
+        background-color:black;
+        transition:0.1s;
+}
+.app__btn-convert{
+        color:green;
+}
+.app__output{
+        margin:0;
+        margin-top:10px;
+        margin-bottom: 10px;
+        padding:15px;
+        background-color:#0466c8;
+        color:#ffffff;
+        text-align: center;
+        
+}
+.app-table{
+        width: 100%;
+        color:#ffffff;
+        border-collapse:collapse;
+        border:2px solid #0353a4;
+}
+.app-table__row:nth-child(odd){
+        background-color:#0466c8;
+}
+.app-table__row:nth-child(even){
+        background-color:#0353a5;
+}
+.app-table__cell{
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom:15px;
+        width:50%;
+        border:2px solid #001233;
+}
+.app-table__cell:nth-child(even){
+        border-left:1px solid #D3D3D3;
+border:2px solid #001233;
+}
+/*botão*/
+button[class="app__btn-convert"]{
+        background-color: navajowhite  ;
+        color:red;
+}
+strong{
+        color:white;
+        font-size:20px;
+}
+body,html{
+        height: 100%;
+        margin:0;
+}
+.bg{
+        background-color:black;
+        background-repeat:no-repeat;
+        background-size:cover;
+}
+small{
+        font-family:monospace;
+        font-size:20px;
+        position:absolute;
+        right:0;
+        bottom:15px;
+        color:red;
+}
